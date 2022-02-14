@@ -19,3 +19,5 @@ The `sfdx-project.json` file contains useful configuration information for your 
 
 Version 1.01
 - chargement du code terminé des quatre classes principales (deux webservice apex et deux classes de test)
+Version 1.02
+- edité le fichier json.package pour changer la version du prettier-plugin-apex" à "^1.10.0 car la version 1.10.1 n'est pas supportée par heroku
