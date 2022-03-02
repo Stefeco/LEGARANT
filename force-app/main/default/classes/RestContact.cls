@@ -42,7 +42,7 @@ global with sharing class RestContact {
         thisContact.Active__c = false;
         System.debug('RestRequest thisContact.Active__c = ' + thisContact.Active__c);
         
-        update thisContact;
+        delete thisContact;
     } //end of method
 
 
